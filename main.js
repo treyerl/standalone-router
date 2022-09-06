@@ -35,10 +35,10 @@ class Router{
       routes = '*';
     }else if(args.length == 2){
       [ routes, fn ] = args;
-    }else if(args.length > 2){
+    }else if(args.length == 3){
       routes = args.shift();
       fn = args.pop();
-      middlewares = args;      
+      [ middlewares ] = args;
     }else{
       throw new Error(`Invalid number prop arguments.`);
     }

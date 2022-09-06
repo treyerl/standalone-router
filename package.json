@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "type": "module",
+  "types": "types/index.d.ts",
   "scripts": {},
   "homepage": "https://github.com/hjalmar/standalone-router",
   "author": "Jens Hjalmarsson",
